@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-07-08T19:45:00
+updated: 2026-07-08T20:15:00
 tags:
   - meta
   - hot-cache
@@ -11,6 +11,7 @@ related:
   - "[[index]]"
   - "[[log]]"
   - "[[overview]]"
+  - "[[projects/segundo-cerebro/README]]"
   - "[[projects/_index]]"
   - "[[areas/_index]]"
   - "[[resources/_index]]"
@@ -23,20 +24,23 @@ Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
 
-2026-07-08: Vault reconfigurado como **Segundo Cerebro** con metodología **PARA**. Se activó `.vault-meta/mode.json` (mode: para) vía `scripts/wiki-mode.py set para`, y se crearon las carpetas `wiki/projects/` (con `inbox/`), `wiki/areas/`, `wiki/resources/` (con `incoming/`, `people/`, `concepts/`), y `wiki/archives/`, cada una con su `_index.md`. Se actualizaron `index.md`, `overview.md` y `log.md` para reflejar la nueva estructura y navegación.
+2026-07-08: Creada `wiki/projects/segundo-cerebro/README.md` como página principal del proyecto Segundo Cerebro (primer proyecto real bajo PARA). Cubre objetivo, flujo `.raw/ → wiki/ → hot.md → commit → GitHub`, herramientas (Obsidian, Claude Code, VS Code, GitHub), carpetas del sistema y próximos pasos. Se añadió a [[projects/_index]] como activo. También se crearon 4 carpetas de intake bajo `.raw/`: `youtube/`, `libros/`, `documentos/`, `ideas/` (con `.gitkeep`).
 
 ## Estado actual
 
-- **Plugin**: claude-obsidian v1.9.2 (release pública canónica; último commit `cb93ff6` añade el social preview card).
-- **Contenido pre-existente** (~34 páginas: `concepts/`, `entities/`, `sources/`, `comparisons/`, `questions/`, `meta/`) documenta el desarrollo del propio plugin (v1.0 a v1.9.2, incluyendo DragonScale Memory y el audit v1.7.0). Por decisión explícita del usuario, **no se migró automáticamente** a PARA — sigue en sus carpetas originales, tal como indica la política de no-auto-migración del propio repo.
-- Carpetas PARA nuevas están vacías, listas para uso (marcadas con `.gitkeep`).
+- PARA activo desde 2026-07-08 (ver entrada anterior en el log).
+- Primer proyecto real filed: [[projects/segundo-cerebro/README|Segundo Cerebro]].
+- `.raw/` ahora tiene subcarpetas por tipo de fuente, listas para recibir contenido real.
+- Enlaces `[[Obsidian]]`, `[[Claude Code]]`, `[[GitHub]]`, `[[PARA]]` en la página del proyecto son wikilinks **no resueltos** todavía (no existen esas páginas stub).
+- Nada de esto está commiteado aún — el usuario pidió revisar los archivos antes de commitear.
 
 ## Pendiente
 
-- Triage manual (opcional): mover contenido pre-PARA a `resources/<tema>/` o `archives/<año>/` cuando el usuario quiera.
-- Primeros ingests/proyectos reales del segundo cerebro personal aún no creados — la carpeta `projects/` y `areas/` están vacías esperando contenido.
-- Cambios sin commitear en `.obsidian/` (config de plugins: dataview, obsidian-git, obsidian-memos, templater-obsidian añadidos) — no se ha hecho commit de esta sesión todavía; pendiente de confirmación del usuario para `git add` + commit.
+- Decidir si crear las páginas stub [[Obsidian]], [[Claude Code]], [[GitHub]], [[PARA]] para resolver los enlaces, o dejarlos como están.
+- Empezar a depositar fuentes reales en `.raw/youtube/`, `.raw/libros/`, `.raw/documentos/`, `.raw/ideas/` y correr el primer ingest real bajo PARA.
+- Revisar y confirmar el commit de esta sesión (README del proyecto + carpetas `.raw/` + actualizaciones de index/log/hot).
+- Triage opcional del contenido pre-PARA (`wiki/concepts/`, `entities/`, `sources/`) hacia `resources/`.
 
 ## Active Threads
 
-- Vault recién configurado; próxima sesión debería continuar con el primer ingest real o la definición de las primeras áreas/proyectos del segundo cerebro.
+- Segundo Cerebro pasó de "estructura vacía" a tener su primera página de proyecto real; siguiente paso natural es el primer ingest de contenido real.

@@ -25,7 +25,7 @@ New, unsorted ingests and session notes land in [[projects/inbox/_index|inbox]] 
 
 ## Active
 
-<!-- - [[projects/<name>/overview]] — one line on outcome + status -->
+- [[segundo-cerebro/README|Segundo Cerebro]] — página principal del proyecto: objetivo, flujo `.raw/` → `wiki/` → `hot.md` → commit → GitHub, herramientas, carpetas, próximos pasos (status: active)
 
 ## Inbox (untriaged)
 

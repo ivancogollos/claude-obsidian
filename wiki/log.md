@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-07-08] create | Segundo Cerebro project page + .raw/ intake folders
+- Type: project page + source-intake structure
+- Locations (new): `wiki/projects/segundo-cerebro/README.md` (project main page: objetivo, flujo .raw→wiki→hot→commit→GitHub, herramientas, carpetas, próximos pasos), `.raw/youtube/.gitkeep`, `.raw/libros/.gitkeep`, `.raw/documentos/.gitkeep`, `.raw/ideas/.gitkeep`
+- Locations (modified): `wiki/projects/_index.md` (added Segundo Cerebro to Active), `wiki/hot.md`, `wiki/log.md`
+- Scope: primera página de proyecto real bajo PARA (`wiki/projects/segundo-cerebro/`). Enlaces internos a [[Obsidian]], [[Claude Code]], [[GitHub]] y [[PARA]] quedan como wikilinks no resueltos (páginas stub aún no creadas, ver Próximos pasos en la página del proyecto). `.raw/` gana 4 subcarpetas de intake por tipo de fuente.
+- Next recommended: crear las páginas stub [[Obsidian]], [[Claude Code]], [[GitHub]], [[PARA]] cuando se quiera cerrar esos enlaces; empezar a depositar fuentes reales en las nuevas carpetas de `.raw/`.
+
 ## [2026-07-08] config | Vault configured as Segundo Cerebro + PARA methodology
 - Type: methodology mode switch + structure setup
 - Locations (new): `.vault-meta/mode.json` (mode: para), `wiki/projects/_index.md`, `wiki/projects/inbox/.gitkeep`, `wiki/areas/_index.md`, `wiki/areas/.gitkeep`, `wiki/resources/_index.md`, `wiki/resources/incoming/.gitkeep`, `wiki/resources/people/.gitkeep`, `wiki/resources/concepts/.gitkeep`, `wiki/archives/_index.md`, `wiki/archives/.gitkeep`
