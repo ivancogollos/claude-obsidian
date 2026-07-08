@@ -1,6 +1,8 @@
 ---
 type: project
 title: "Segundo Cerebro"
+aliases:
+  - "Segundo Cerebro"
 created: 2026-07-08
 updated: 2026-07-08
 status: active

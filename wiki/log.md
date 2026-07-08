@@ -25,6 +25,14 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-07-08] ingest | Vídeo - Segundo Cerebro con Claude + Obsidian (placeholder)
+- Type: video source, transcript pending
+- Locations (new): `.raw/youtube/video-segundo-cerebro-claude-obsidian.md` (raw placeholder: URL, repo, objetivo, "Notas manuales pendientes", "Ideas iniciales"), `wiki/resources/sources/video-segundo-cerebro-claude-obsidian.md` (wiki source page)
+- Summary: [[video-segundo-cerebro-claude-obsidian|Vídeo - Segundo Cerebro con Claude + Obsidian]]
+- Pages created: `wiki/resources/sources/video-segundo-cerebro-claude-obsidian.md`
+- Cross-references: [[Segundo Cerebro]], [[Obsidian]], [[Claude Code]], [[GitHub]], [[PARA]], [[Hot Cache]] (four of these — Obsidian, Claude Code, GitHub, PARA — remain unresolved stub links per prior session decision)
+- Key insight: primera fuente real depositada en `.raw/youtube/`; contenido real (transcripción/resumen) aún pendiente de pegar manualmente.
+
 ## [2026-07-08] create | Segundo Cerebro project page + .raw/ intake folders
 - Type: project page + source-intake structure
 - Locations (new): `wiki/projects/segundo-cerebro/README.md` (project main page: objetivo, flujo .raw→wiki→hot→commit→GitHub, herramientas, carpetas, próximos pasos), `.raw/youtube/.gitkeep`, `.raw/libros/.gitkeep`, `.raw/documentos/.gitkeep`, `.raw/ideas/.gitkeep`
