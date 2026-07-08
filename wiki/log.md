@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-04-08
+updated: 2026-07-08
 tags:
   - meta
   - log
@@ -24,6 +24,13 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+## [2026-07-08] config | Vault configured as Segundo Cerebro + PARA methodology
+- Type: methodology mode switch + structure setup
+- Locations (new): `.vault-meta/mode.json` (mode: para), `wiki/projects/_index.md`, `wiki/projects/inbox/.gitkeep`, `wiki/areas/_index.md`, `wiki/areas/.gitkeep`, `wiki/resources/_index.md`, `wiki/resources/incoming/.gitkeep`, `wiki/resources/people/.gitkeep`, `wiki/resources/concepts/.gitkeep`, `wiki/archives/_index.md`, `wiki/archives/.gitkeep`
+- Locations (modified): `wiki/index.md` (PARA structure section + nav), `wiki/overview.md` (Purpose + Methodology sections rewritten, Current State refreshed), `wiki/hot.md` (full refresh, current plugin state + pending items)
+- Scope: ran `python3 scripts/wiki-mode.py set para` per `docs/methodology-modes-guide.md`, then seeded the four PARA folders manually. User explicitly chose NOT to auto-migrate the ~40 pre-existing pages (concepts/entities/sources/comparisons/questions from the plugin's own v1.0-v1.9.2 development history) — they stay in their original folders per the documented no-auto-migrate policy. New content (ingests, sessions, research) will route through PARA per `scripts/wiki-mode.py route`.
+- Next recommended: manually triage pre-existing `wiki/concepts/`, `wiki/entities/`, `wiki/sources/`, `wiki/comparisons/`, `wiki/questions/` content into `resources/<topic>/` or `archives/<year>/` when convenient (see [[resources/_index]]).
 
 ## [2026-04-24] save | v1.6.0 public release notes (Teams, Karpathy-style)
 - Type: release doc + visual assets

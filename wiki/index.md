@@ -1,10 +1,11 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-04-07
+updated: 2026-07-08
 tags:
   - meta
   - index
+  - para
 status: evergreen
 related:
   - "[[overview]]"
@@ -12,6 +13,10 @@ related:
   - "[[hot]]"
   - "[[dashboard]]"
   - "[[Wiki Map]]"
+  - "[[projects/_index]]"
+  - "[[areas/_index]]"
+  - "[[resources/_index]]"
+  - "[[archives/_index]]"
   - "[[concepts/_index]]"
   - "[[entities/_index]]"
   - "[[sources/_index]]"
@@ -23,9 +28,20 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-15 | Total pages: 34 | Sources ingested: 2
+Last updated: 2026-07-08 | Total pages: 34+ | Sources ingested: 2 | Methodology mode: **PARA** (since 2026-07-08)
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
+
+---
+
+## PARA Structure (active mode)
+
+- [[projects/_index]] — active work, deadline + outcome driven (new session notes triage here via `projects/inbox/`)
+- [[areas/_index]] — ongoing responsibilities, no deadline
+- [[resources/_index]] — reference material by topic (`resources/incoming/`, `resources/people/`, `resources/concepts/`, plus pre-existing `concepts/`, `entities/`, `sources/`, `comparisons/`, `questions/`)
+- [[archives/_index]] — completed projects / sunsetted areas, filed by year
+
+Pre-existing content below (concepts, entities, sources, comparisons, questions) predates the PARA switch and was intentionally left in its original location — see [[resources/_index]] for the migration note.
 
 ---
 
